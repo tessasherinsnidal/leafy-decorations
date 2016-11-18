@@ -38,16 +38,17 @@ html {
 }
 
 .banner {
-  border-bottom: 3px solid #2d5a4d;
-  background-image: url("../images/banner.jpg"), linear-gradient(to bottom, rgba(16, 52, 41, 0), rgba(16, 52, 41, .8));
+  border-bottom: 3px solid #145b1d;
+  background-image: linear-gradient(to bottom, rgba(16, 52, 41, 0), rgba(16, 52, 41, 0), rgba(16, 52, 41, 0), rgba(16, 52, 41, .8)), url("../images/banner.jpg");
   background-repeat: no-repeat;
   background-size: 1440px auto;
-  background-position: center;
+  background-position: bottom;
+  max-height:
 }
 
 .banner-content {
   background-image: url("../images/two-leaves.svg");
-  background-size: 150px auto;
+  background-size: 100px auto;
   background-repeat: no-repeat;
   background-position: left center;
   padding-top: 39em;
